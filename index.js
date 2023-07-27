@@ -1,14 +1,15 @@
-// Create a function that increments the lapsCompleted variable with one
-// Run it three times
+// document.getElementById("count-el").innerText = 5
 
-let lapsCompleted = 0
+// change the count-el in the HTML to reflect the new count
 
-function incrementLapsCompleted() {
-     lapsCompleted++
+// camelCase
+let countEl = document.getElementById("count-el") //pass in arguments
+
+console.log(countEl)
+
+let count = 0
+
+function increment() {
+    count = count + 1
+    countEl.innerText = count
 }
-
-incrementLapsCompleted()
-incrementLapsCompleted()
-incrementLapsCompleted()
-
-console.log(lapsCompleted)
