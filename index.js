@@ -1,28 +1,14 @@
-// // Create a function (you decide the name) that logs out the number 42 to the console
-// function testFunction() {
-//     console.log(42)
-// }
+// Create a function that increments the lapsCompleted variable with one
+// Run it three times
 
-// // Call/invoke the function
+let lapsCompleted = 0
 
-// testFunction()
-
-let lap1 = 34
-let lap2 = 33
-let lap3 = 36
-
-// Create a function that logs out the sum of all the lap times 
-//Alternative 1:
-function loggingLaps() {
-    let lapTotal = lap1 + lap2 + lap3 
-    console.log(lapTotal)
+function incrementLapsCompleted() {
+     lapsCompleted++
 }
 
-loggingLaps()
+incrementLapsCompleted()
+incrementLapsCompleted()
+incrementLapsCompleted()
 
-//Alternative 2:
-function logLapTime() {
-    console.log(lap1 + lap2 + lap3)
-}
-
-logLapTime()
+console.log(lapsCompleted)
