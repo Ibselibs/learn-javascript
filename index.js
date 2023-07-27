@@ -1,18 +1,28 @@
-// Setting up the the race 🏎 🏎 🏎
+// // Create a function (you decide the name) that logs out the number 42 to the console
+// function testFunction() {
+//     console.log(42)
+// }
 
-function countdown() {
-    console.log(5)
-    console.log(4)
-    console.log(3)
-    console.log(2)
-    console.log(1)
+// // Call/invoke the function
+
+// testFunction()
+
+let lap1 = 34
+let lap2 = 33
+let lap3 = 36
+
+// Create a function that logs out the sum of all the lap times 
+//Alternative 1:
+function loggingLaps() {
+    let lapTotal = lap1 + lap2 + lap3 
+    console.log(lapTotal)
 }
 
-countdown()
+loggingLaps()
 
+//Alternative 2:
+function logLapTime() {
+    console.log(lap1 + lap2 + lap3)
+}
 
-// GO! 🏁
-// Players are running the race 🏎 💨
-// Race is finished! 🍾
-
-// Get ready for a new race 🏎 🏎 🏎
+logLapTime()
