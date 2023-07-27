@@ -13,3 +13,9 @@ function increment() {
     count = count + 1
     countEl.innerText = count
 }
+
+
+// DOM = Document Object Model. 
+    // Document = HTML document
+    // Object = Data type object (the Document has this data type)¨
+    // Model = Real thing (HTML) the model (the element in Javascrip e.g. document.getElementByID etc.)
