@@ -1,21 +1,18 @@
-// // document.getElementById("count").innerText = 5
+// Setting up the the race 🏎 🏎 🏎
 
-// let count = 5
-// count = 3
-// console.log(count)
+function countdown() {
+    console.log(5)
+    console.log(4)
+    console.log(3)
+    console.log(2)
+    console.log(1)
+}
 
-// Create a variable, bonusPoints. Initialize it as 50. Increase it to 100.
-let bonusPoints = 50
-console.log(bonusPoints)
+countdown()
 
-bonusPoints = bonusPoints + 50
-console.log(bonusPoints)
 
-// Decrease it down to 25, and then finally increase it to 70
-bonusPoints = bonusPoints - 75
-console.log(bonusPoints)
+// GO! 🏁
+// Players are running the race 🏎 💨
+// Race is finished! 🍾
 
-bonusPoints = bonusPoints + 45
-
-// Console.log the value after each step
-console.log(bonusPoints)
+// Get ready for a new race 🏎 🏎 🏎
