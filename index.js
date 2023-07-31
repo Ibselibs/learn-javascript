@@ -1,24 +1,11 @@
+// Create a variable, message, that stores the string: "You have tree new notifications"
 
+let username = "Per"
 
-if (typeof document !== 'undefined') {
-    let countEl = document.getElementById("count-el")
+let message = "You have three new notifications"
 
-    let count = 0
+let messageToUser = message + ", " + username + " ! "
+console.log(messageToUser)
 
-    function increment() {
-        count = count + 1
-        countEl.innerText = count
-    }
+// Create a variable, messageToUser, that contains the message we have logged
 
-    function save() {
-        console.log(count)
-    }
-
-    save()
-}
-
-
-
-
-
-// 1. Create a function, save(), which logs out the count when it's called
