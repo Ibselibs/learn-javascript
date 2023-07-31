@@ -1,11 +1,11 @@
-// Create a variable, message, that stores the string: "You have tree new notifications"
+// Create two variables, name and greeting. The name variable should store your name,
+// and the greeting should store e.g. "Hi, my name is "
 
-let username = "Per"
+let name = "Ida"
+let greeting = "Hi, my name is "
 
-let message = "You have three new notifications"
+// Create a third variable, myGreeting, that contatenates the two strings
+// Log myGreeting to the console
+let myGreeting = greeting + name
 
-let messageToUser = message + ", " + username + " ! "
-console.log(messageToUser)
-
-// Create a variable, messageToUser, that contains the message we have logged
-
+console.log(myGreeting)
