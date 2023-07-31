@@ -1,15 +1,9 @@
-let saveEl = document.getElementById("save-el")
-let countEl = document.getElementById("count-el")
-let count = 0
+// Create two variables, firstName and lastName
+let firstName = "Ida"
+let lastName = "Christiansen"
 
-function increment() {
-    count += 1
-    countEl.textContent = count
-}
+// Concatenate the two variables into a third variable called fullName
+let fullName = firstName + " " + lastName
 
-function save() {
-    let countStr = count + " - "
-    saveEl.textContent += countStr
-    countEl.textContent = 0
-    count = 0
-}
+// Log fullName to the console
+console.log(fullName)
