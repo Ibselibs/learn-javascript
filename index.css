@@ -2,13 +2,45 @@
 
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
+    background-image: url("blackJackBackground.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    font-weight: bold;
 }
 
 h1 {
     color: goldenrod;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+p {
+    color: white;
+    font-size: medium;
+    text-align: center;
+    
 }
 
 #message-el {
-    
+    color: white;
+    font-size: medium;
+    font-style: italic;
+    text-align: center;
+}
+
+button {
+    background-color: goldenrod;
+    border: none;
+    border-radius: 8px;
+    color: green;
+    width: 150px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-weight: bolder;
+    text-decoration: none;
+    margin-inline: 530px;
+    font-size: 13px;
 }
