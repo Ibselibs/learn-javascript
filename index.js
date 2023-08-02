@@ -1,36 +1,25 @@
-let num1 = 8
-let num2 = 2
-document.getElementById("num1-el").textContent = num1
-document.getElementById("num2-el").textContent = num2
-let sumEl = document.getElementById("sum-el")
-// Create four functions: add(), subtract(), divide(), multiply()
-// Call the correct function when the user clicks on one of the buttons
-// Perform the given calculation using num1 and num2
-function add() {
-    let result = num1 + num2
-    sumEl.textContent= "Sum: " + result
+let firstCard = 10
+let secondCard = 10
+let sum = firstCard + secondCard 
+let hasBlackJack = false
+let isAlive = true
+let message = ""
+// 1. Declare a variable called message and assign its value to an empty string
+
+// 2. Reassign the message variable to the string we're logging out
+if (sum <= 20) {
+    message = "Do you want to draw a new card?"
+}else if (sum === 21) {
+    message = "Woohoo! You have BlackJack!"
+    hasBlackJack = true
+}else {
+    message = "You are out of the game!"
+    isAlive = false
 }
 
-function subtract() {
-    let result = num1 - num2
-    sumEl.textContent= "Sum: " + result
-}
+   //Cash Out!
+//console.log(isAlive)
+//console.log(hasBlackJack)
 
-function divide() {
-    let result = num1 / num2
-    sumEl.textContent= "Sum: " + result
-}
-
-function multiply() {
-    let result = num1 * num2
-    sumEl.textContent= "Sum: " + result
-}
-
-
-
-// Render the result of the calculation in the paragraph with id="sum-el"
-
-// E.g. if the user clicks on the "Plus" button, you should render
-// "Sum: 10" (since 8 + 2 = 10) inside the paragraph with id="sum-el"
-
-
+// 3. Log it out!
+console.log(message)
